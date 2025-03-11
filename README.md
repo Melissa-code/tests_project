@@ -72,3 +72,12 @@ This is a project about front tests with:
 
 <img src="./src/assets/cypress_tests.png" style="width:300px;" />
 
+
+5. Test browser, run tests again: `npm run test:e2e:dev` and select `Electron`
+
+6. You can add `New spec`, use examples `Scaffold example specs` (`todo.cy.js`) and import them 
+
+7. Clic on the test to run it 
+
+<img src="./src/assets/electron_tests.png" style="width:300px;" />
+
