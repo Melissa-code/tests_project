@@ -1,9 +1,18 @@
 # tests_project
 
-This is a project about front tests with:
+Test your VueJS project with: 
 
 - vitest (unit tests) [Vitest documentation](https://vitest.dev/guide)
-- cypress (tests end to end) [Cypress](https://docs.cypress.io/app/get-started/why-cypress)
+- cypress (end to end tests) [Cypress documentation](https://docs.cypress.io/app/get-started/why-cypress)
+
+---
+
+
+## Prerequisite 
+
+1. Install [NodeJS](https://nodejs.org/en/download)
+
+2. Check installation `node -v` (ex: v22.1.0)
 
 ---
 
@@ -16,7 +25,7 @@ This is a project about front tests with:
 
 3. Select (space) : typescript, vitest, end to end & cypress 
 
-4. Go the project : `cd tests_project`
+4. Go to the project : `cd tests_project`
 
 5. Install dependancies : `npm install` or `npm i`
 
@@ -25,6 +34,18 @@ This is a project about front tests with:
 7. Run unit tests: `npm run test:unit`
 
 8. Run e2e tests: `npm run test:e2e`
+
+OR 
+
+1. Clone the project `git clone https://github.com/Melissa-code/tests_project`
+
+2. Go to the project : `cd tests_project`
+
+3. Install dependancies : `npm install` or `npm i`
+
+4. Run unit tests: `npm run test:unit`
+
+5. Run e2e tests: `npm run test:e2e`
 
 ---
 
@@ -55,7 +76,7 @@ This is a project about front tests with:
 ---
 
 
-## 3. Test the application (tests end to end) Cypress
+## 3. Test the application (end to end tests) Cypress
 
 - simulate user behavior
 - automated tests
@@ -73,11 +94,13 @@ This is a project about front tests with:
 <img src="./src/assets/cypress_tests.png" style="width:300px;" />
 
 
-5. Test browser, run tests again: `npm run test:e2e:dev` and select `Electron`
+### 3.2. Use another browser like Electron  
 
-6. You can add `New spec`, use examples `Scaffold example specs` (`todo.cy.js`) and import them 
+1. Test browser, run tests again: `npm run test:e2e:dev` and select `Electron`
 
-7. Clic on the test to run it 
+2. You can add `New spec`, use examples `Scaffold example specs` (for a to do list `todo.cy.js`) and import them to have a lot of examples
+
+3. Clic on the test `example.cy.ts` to run it 
 
 <img src="./src/assets/electron_tests.png" style="width:300px;" />
 
