@@ -3,12 +3,12 @@
 This is a project about front tests with:
 
 - vitest (unit tests) [Vitest documentation](https://vitest.dev/guide)
-- cypress (tests end to end) 
+- cypress (tests end to end) [Cypress](https://docs.cypress.io/app/get-started/why-cypress)
 
 ---
 
 
-## Installation
+## 1. Installation
 
 1. Create the project : `npm create vue@latest`
 
@@ -22,12 +22,16 @@ This is a project about front tests with:
 
 6. Optional Run the project : `npm run dev`
 
-7. Run tests: `npm run test:unit`
+7. Run unit tests: `npm run test:unit`
+
+8. Run e2e tests: `npm run test:e2e`
 
 ---
 
 
-## Test a component 
+## 2. Unit tests Vitest 
+
+### 2.1. Test a component 
 
 1. Create a SimpleButton component in the src folder
 
@@ -37,10 +41,8 @@ This is a project about front tests with:
 
 <img src="./src/assets/unit_tests_ok.png" style="width: 300px;" />
 
----
 
-
-## Test a function 
+### 2.2. Test a function 
 
 1. Create a functions folder in src 
 
@@ -49,3 +51,24 @@ This is a project about front tests with:
 3. Create a __tests__ folder in functions folder 
 
 4. Test the useFormatPrice & useGetBiggest functions
+
+---
+
+
+## 3. Test the application (tests end to end) Cypress
+
+- simulate user behavior
+- automated tests
+
+### 3.1. Simulate user behavior 
+
+1. In cypress folder, in e2e folder, edit example.cy.ts file
+
+2. Write tests (for instance: test the navigation (`visit()`))
+
+3. Compile the app: `npm run build` to create rep `dist`
+
+4. Run tests: `npm run test:e2e`
+
+<img src="./src/assets/cypress_tests.png" style="width:300px;" />
+

@@ -7,6 +7,8 @@
 <template>
   <button class="greetings">
     <h1 class="green">{{ text }}</h1>
+    <h2>Ou là</h2>
+    <h2>Par ici aussi</h2>
   </button>
 </template>
 
