@@ -1,6 +1,6 @@
 # tests_project
 
-This is a project about tests with:
+This is a project about front tests with:
 
 - vitest (unit tests) [Vitest documentation](https://vitest.dev/guide)
 - cypress (tests end to end) 
@@ -35,7 +35,7 @@ This is a project about tests with:
 
 3. Run tests: `npm run test:unit` then `ctrl + S` (help: `h` and quit `q`)
 
-<img src="./src/assets/unit_tests_ok.png" style="width: 200px;" />
+<img src="./src/assets/unit_tests_ok.png" style="width: 300px;" />
 
 ---
 
